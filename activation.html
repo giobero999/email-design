@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pixelart CMS</title>
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+</head>
+
+<style>
+  body {
+    margin: 0 auto;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: normal;
+    //background:#e3e8ea url('https://pixelart.ge/imgs/mail-assets/back.jpg') no-repeat;
+    background: #edf0f1;
+    background-size: 100% auto;
+    background-position: center;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0px;
+    background: #edf0f1;
+  }
+
+  .wrapper {
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 30px 0 0px;
+    width: 580px;
+    max-width: 100%;
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow:    0px 0px 15px rgba(0, 0, 0, 0.16);
+    box-shadow:         0px 0px 15px rgba(0, 0, 0, 0.16);
+  }
+
+  header {
+    margin: 0px auto;
+  }
+
+  .logo {
+    display: table;
+    margin: auto;
+  }
+  .header-text {
+    text-align: center;
+    color: #1e788b;
+  }
+  .container {
+    margin: 40px auto;
+    padding: 50px 40px;
+    width: inherit;
+    background: #f7f7f7;
+    box-sizing: border-box;
+  }
+
+  .welcome-text {
+    text-align: center;
+    font-weight: normal;
+    color: #484848;
+    margin: 6px auto;
+    font-size: 38px;
+  }
+
+  .line {
+    width: 60px;
+    height: 2px;
+    border-radius: 10px;
+    background: #1e788b;
+    margin: 0 auto 20px;
+  }
+
+  .main-text {
+    display: table;
+    margin: 10px auto;
+    text-align: center;
+    color: #5a5a5a;
+    font-size: 15px;
+    width: 90%;
+  }
+
+  .note {
+    display: table;
+    color: #5a5a5a;
+    text-align: center;
+    margin: auto;
+    font-size: 14px;
+  }
+
+
+  button {
+    display: table;
+    height: 50px;
+    background: #1e788b;
+    color: white;
+    padding: 4px 30px;
+    font-size: 16px;
+    margin: 20px auto;
+    text-align: center;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px 0px rgba(51, 55, 70, 0.41);
+  }
+  button:hover {
+    background: #258498;
+    cursor: pointer;
+  }
+
+  .link {
+    display: table;
+    color: white;
+    padding: 0;
+    font-size: 16px;
+    margin: 0px auto;
+    text-align: center;
+    border: none;
+  }
+
+  .info {
+    text-align: center;
+    color: #a5b7c5;
+    font-size: 12px;
+  }
+  .info span {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+  .info address {
+    font-style: normal;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  .skyline {
+    display: grid;
+    margin: 0 auto 0px;
+    padding-left: 4px;
+  }
+
+  div.footer {
+    display: table;
+    margin: auto;
+  }
+  div.footer p {
+    display: table;
+    text-align: center;
+    font-size: 13px;
+    color: #656565;
+    margin: 4px auto;
+  }
+  div.footer a p{
+    display: table;
+    font-size: 12px;
+    color: #4484e4;
+    margin: auto;
+    text-align: center;
+  }
+
+  .social {
+    display: table;
+    margin: 5px auto -5px;
+  }
+  .social a {
+    padding: 0px;
+    margin: 4px;
+  }
+  .social a img {
+    display: inline-table;
+    margin: 4px;
+  }
+
+  .spacer {
+    height: 80px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .wrapper {
+      width: 500px
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .wrapper {
+      width: 450px
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .wrapper {
+      width: 380px
+    }
+  }
+  @media screen and (max-width: 380px) {
+    .wrapper {
+      width: 280px
+    }
+  }
+
+</style>
+
+<body>
+  <div class="content">
+    <div class="spacer"></div>
+    <div class="wrapper">
+      <header>
+        <div class="logo">
+          <img src="https://pixelart.ge/imgs/mail-assets/logo.png" alt="Pixelart" width="60">
+        </div>
+        <h3 class="header-text">BEAUTIFUL CONTENT MANAGEMENT</h3>
+      </header>
+      <div class="container">
+        <h1 class="welcome-text">Join Us!</h1>
+        <div class="line"></div>
+        <p class='main-text'>
+          Lucky you, [TENANT NAME] has invited you to collaborate with them on Pixelart. Click below to unite forces now.
+        </p>
+        <p class="note">
+          NOTE: This link is active for 1 week
+        </p>
+        <a href="#" class="link">
+          <button>
+              JOIN NOW
+          </button>
+        </a>
+      </div>
+      <div class="info">
+        <span>hello@pixelart.ai</span>
+        <address>
+          122 Regents Park Road, London, NW1 8XL
+        </address>
+      </div>
+      <p class="skyline">
+        <img src="https://pixelart.ge/imgs/mail-assets/skyline3.png" alt="Skyline" width="100%">
+      </p>
+    </div>
+    <div class="footer">
+      <p>
+        © 2017 Pixelart. All Rights Reserved.
+      </p>
+    </div>
+    <div class="spacer"></div>
+  </div>
+</body>
+</html>
